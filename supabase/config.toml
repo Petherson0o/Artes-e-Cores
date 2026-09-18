@@ -1,0 +1,7 @@
+project_id = "ykalfqwngcsltxkdlkzs"
+
+[functions.check-email]
+enabled = true
+verify_jwt = false
+import_map = "./functions/check-email/deno.json"
+entrypoint = "./functions/check-email/index.ts"
